@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		988E0ACA18D4ACB7004F3B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E0AC918D4ACB7004F3B4D /* Foundation.framework */; };
+		988E0ACC18D4ACB7004F3B4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E0ACB18D4ACB7004F3B4D /* CoreGraphics.framework */; };
+		988E0ACE18D4ACB7004F3B4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E0ACD18D4ACB7004F3B4D /* UIKit.framework */; };
+		988E0AD418D4ACB7004F3B4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 988E0AD218D4ACB7004F3B4D /* InfoPlist.strings */; };
+		988E0AD618D4ACB7004F3B4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E0AD518D4ACB7004F3B4D /* main.m */; };
+		988E0ADA18D4ACB7004F3B4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E0AD918D4ACB7004F3B4D /* AppDelegate.m */; };
+		988E0ADD18D4ACB7004F3B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988E0ADB18D4ACB7004F3B4D /* Main.storyboard */; };
+		988E0AE018D4ACB7004F3B4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E0ADF18D4ACB7004F3B4D /* ViewController.m */; };
+		988E0AE218D4ACB7004F3B4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 988E0AE118D4ACB7004F3B4D /* Images.xcassets */; };
+		988E0AE918D4ACB7004F3B4D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E0AE818D4ACB7004F3B4D /* XCTest.framework */; };
+		988E0AEA18D4ACB7004F3B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E0AC918D4ACB7004F3B4D /* Foundation.framework */; };
+		988E0AEB18D4ACB7004F3B4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E0ACD18D4ACB7004F3B4D /* UIKit.framework */; };
+		988E0AF318D4ACB7004F3B4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 988E0AF118D4ACB7004F3B4D /* InfoPlist.strings */; };
+		988E0AF518D4ACB7004F3B4D /* BatalabraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E0AF418D4ACB7004F3B4D /* BatalabraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		988E0AEC18D4ACB7004F3B4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 988E0ABE18D4ACB7004F3B4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 988E0AC518D4ACB7004F3B4D;
+			remoteInfo = Batalabra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		988E0AC618D4ACB7004F3B4D /* Batalabra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Batalabra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		988E0AC918D4ACB7004F3B4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		988E0ACB18D4ACB7004F3B4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		988E0ACD18D4ACB7004F3B4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		988E0AD118D4ACB7004F3B4D /* Batalabra-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Batalabra-Info.plist"; sourceTree = "<group>"; };
+		988E0AD318D4ACB7004F3B4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		988E0AD518D4ACB7004F3B4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		988E0AD718D4ACB7004F3B4D /* Batalabra-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Batalabra-Prefix.pch"; sourceTree = "<group>"; };
+		988E0AD818D4ACB7004F3B4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		988E0AD918D4ACB7004F3B4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		988E0ADC18D4ACB7004F3B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		988E0ADE18D4ACB7004F3B4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		988E0ADF18D4ACB7004F3B4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		988E0AE118D4ACB7004F3B4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		988E0AE718D4ACB7004F3B4D /* BatalabraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatalabraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		988E0AE818D4ACB7004F3B4D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		988E0AF018D4ACB7004F3B4D /* BatalabraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BatalabraTests-Info.plist"; sourceTree = "<group>"; };
+		988E0AF218D4ACB7004F3B4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		988E0AF418D4ACB7004F3B4D /* BatalabraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatalabraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		988E0AC318D4ACB7004F3B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988E0ACC18D4ACB7004F3B4D /* CoreGraphics.framework in Frameworks */,
+				988E0ACE18D4ACB7004F3B4D /* UIKit.framework in Frameworks */,
+				988E0ACA18D4ACB7004F3B4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988E0AE418D4ACB7004F3B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988E0AE918D4ACB7004F3B4D /* XCTest.framework in Frameworks */,
+				988E0AEB18D4ACB7004F3B4D /* UIKit.framework in Frameworks */,
+				988E0AEA18D4ACB7004F3B4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		988E0ABD18D4ACB7004F3B4D = {
+			isa = PBXGroup;
+			children = (
+				988E0ACF18D4ACB7004F3B4D /* Batalabra */,
+				988E0AEE18D4ACB7004F3B4D /* BatalabraTests */,
+				988E0AC818D4ACB7004F3B4D /* Frameworks */,
+				988E0AC718D4ACB7004F3B4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		988E0AC718D4ACB7004F3B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				988E0AC618D4ACB7004F3B4D /* Batalabra.app */,
+				988E0AE718D4ACB7004F3B4D /* BatalabraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		988E0AC818D4ACB7004F3B4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				988E0AC918D4ACB7004F3B4D /* Foundation.framework */,
+				988E0ACB18D4ACB7004F3B4D /* CoreGraphics.framework */,
+				988E0ACD18D4ACB7004F3B4D /* UIKit.framework */,
+				988E0AE818D4ACB7004F3B4D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		988E0ACF18D4ACB7004F3B4D /* Batalabra */ = {
+			isa = PBXGroup;
+			children = (
+				988E0AD818D4ACB7004F3B4D /* AppDelegate.h */,
+				988E0AD918D4ACB7004F3B4D /* AppDelegate.m */,
+				988E0ADB18D4ACB7004F3B4D /* Main.storyboard */,
+				988E0ADE18D4ACB7004F3B4D /* ViewController.h */,
+				988E0ADF18D4ACB7004F3B4D /* ViewController.m */,
+				988E0AE118D4ACB7004F3B4D /* Images.xcassets */,
+				988E0AD018D4ACB7004F3B4D /* Supporting Files */,
+			);
+			path = Batalabra;
+			sourceTree = "<group>";
+		};
+		988E0AD018D4ACB7004F3B4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				988E0AD118D4ACB7004F3B4D /* Batalabra-Info.plist */,
+				988E0AD218D4ACB7004F3B4D /* InfoPlist.strings */,
+				988E0AD518D4ACB7004F3B4D /* main.m */,
+				988E0AD718D4ACB7004F3B4D /* Batalabra-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		988E0AEE18D4ACB7004F3B4D /* BatalabraTests */ = {
+			isa = PBXGroup;
+			children = (
+				988E0AF418D4ACB7004F3B4D /* BatalabraTests.m */,
+				988E0AEF18D4ACB7004F3B4D /* Supporting Files */,
+			);
+			path = BatalabraTests;
+			sourceTree = "<group>";
+		};
+		988E0AEF18D4ACB7004F3B4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				988E0AF018D4ACB7004F3B4D /* BatalabraTests-Info.plist */,
+				988E0AF118D4ACB7004F3B4D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		988E0AC518D4ACB7004F3B4D /* Batalabra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988E0AF818D4ACB7004F3B4D /* Build configuration list for PBXNativeTarget "Batalabra" */;
+			buildPhases = (
+				988E0AC218D4ACB7004F3B4D /* Sources */,
+				988E0AC318D4ACB7004F3B4D /* Frameworks */,
+				988E0AC418D4ACB7004F3B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Batalabra;
+			productName = Batalabra;
+			productReference = 988E0AC618D4ACB7004F3B4D /* Batalabra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		988E0AE618D4ACB7004F3B4D /* BatalabraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988E0AFB18D4ACB7004F3B4D /* Build configuration list for PBXNativeTarget "BatalabraTests" */;
+			buildPhases = (
+				988E0AE318D4ACB7004F3B4D /* Sources */,
+				988E0AE418D4ACB7004F3B4D /* Frameworks */,
+				988E0AE518D4ACB7004F3B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				988E0AED18D4ACB7004F3B4D /* PBXTargetDependency */,
+			);
+			name = BatalabraTests;
+			productName = BatalabraTests;
+			productReference = 988E0AE718D4ACB7004F3B4D /* BatalabraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		988E0ABE18D4ACB7004F3B4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Victoria Cabeza Guisado";
+				TargetAttributes = {
+					988E0AE618D4ACB7004F3B4D = {
+						TestTargetID = 988E0AC518D4ACB7004F3B4D;
+					};
+				};
+			};
+			buildConfigurationList = 988E0AC118D4ACB7004F3B4D /* Build configuration list for PBXProject "Batalabra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 988E0ABD18D4ACB7004F3B4D;
+			productRefGroup = 988E0AC718D4ACB7004F3B4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				988E0AC518D4ACB7004F3B4D /* Batalabra */,
+				988E0AE618D4ACB7004F3B4D /* BatalabraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		988E0AC418D4ACB7004F3B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988E0AE218D4ACB7004F3B4D /* Images.xcassets in Resources */,
+				988E0AD418D4ACB7004F3B4D /* InfoPlist.strings in Resources */,
+				988E0ADD18D4ACB7004F3B4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988E0AE518D4ACB7004F3B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988E0AF318D4ACB7004F3B4D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		988E0AC218D4ACB7004F3B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988E0AE018D4ACB7004F3B4D /* ViewController.m in Sources */,
+				988E0ADA18D4ACB7004F3B4D /* AppDelegate.m in Sources */,
+				988E0AD618D4ACB7004F3B4D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988E0AE318D4ACB7004F3B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988E0AF518D4ACB7004F3B4D /* BatalabraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		988E0AED18D4ACB7004F3B4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 988E0AC518D4ACB7004F3B4D /* Batalabra */;
+			targetProxy = 988E0AEC18D4ACB7004F3B4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		988E0AD218D4ACB7004F3B4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988E0AD318D4ACB7004F3B4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		988E0ADB18D4ACB7004F3B4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988E0ADC18D4ACB7004F3B4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		988E0AF118D4ACB7004F3B4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988E0AF218D4ACB7004F3B4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		988E0AF618D4ACB7004F3B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		988E0AF718D4ACB7004F3B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		988E0AF918D4ACB7004F3B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Batalabra/Batalabra-Prefix.pch";
+				INFOPLIST_FILE = "Batalabra/Batalabra-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		988E0AFA18D4ACB7004F3B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Batalabra/Batalabra-Prefix.pch";
+				INFOPLIST_FILE = "Batalabra/Batalabra-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		988E0AFC18D4ACB7004F3B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Batalabra.app/Batalabra";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Batalabra/Batalabra-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BatalabraTests/BatalabraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		988E0AFD18D4ACB7004F3B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Batalabra.app/Batalabra";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Batalabra/Batalabra-Prefix.pch";
+				INFOPLIST_FILE = "BatalabraTests/BatalabraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		988E0AC118D4ACB7004F3B4D /* Build configuration list for PBXProject "Batalabra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988E0AF618D4ACB7004F3B4D /* Debug */,
+				988E0AF718D4ACB7004F3B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988E0AF818D4ACB7004F3B4D /* Build configuration list for PBXNativeTarget "Batalabra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988E0AF918D4ACB7004F3B4D /* Debug */,
+				988E0AFA18D4ACB7004F3B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		988E0AFB18D4ACB7004F3B4D /* Build configuration list for PBXNativeTarget "BatalabraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988E0AFC18D4ACB7004F3B4D /* Debug */,
+				988E0AFD18D4ACB7004F3B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 988E0ABE18D4ACB7004F3B4D /* Project object */;
+}
