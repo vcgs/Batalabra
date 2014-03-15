@@ -21,6 +21,14 @@
 		988E0AEB18D4ACB7004F3B4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988E0ACD18D4ACB7004F3B4D /* UIKit.framework */; };
 		988E0AF318D4ACB7004F3B4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 988E0AF118D4ACB7004F3B4D /* InfoPlist.strings */; };
 		988E0AF518D4ACB7004F3B4D /* BatalabraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E0AF418D4ACB7004F3B4D /* BatalabraTests.m */; };
+		988E0B0118D4ADEE004F3B4D /* AccesoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988E0AFE18D4ADEE004F3B4D /* AccesoController.xib */; };
+		988E0B0218D4ADEE004F3B4D /* AccesoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E0AFF18D4ADEE004F3B4D /* AccesoController.m */; };
+		988E0B0C18D4B5B2004F3B4D /* RecuperaPswController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988E0B0318D4B5B2004F3B4D /* RecuperaPswController.xib */; };
+		988E0B0D18D4B5B2004F3B4D /* AyudaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988E0B0418D4B5B2004F3B4D /* AyudaController.xib */; };
+		988E0B0E18D4B5B2004F3B4D /* RegistroController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E0B0518D4B5B2004F3B4D /* RegistroController.m */; };
+		988E0B0F18D4B5B2004F3B4D /* RecuperaPswController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E0B0718D4B5B2004F3B4D /* RecuperaPswController.m */; };
+		988E0B1018D4B5B2004F3B4D /* AyudaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988E0B0918D4B5B2004F3B4D /* AyudaController.m */; };
+		988E0B1118D4B5B2004F3B4D /* RegistroController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988E0B0A18D4B5B2004F3B4D /* RegistroController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,18 @@
 		988E0AF018D4ACB7004F3B4D /* BatalabraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BatalabraTests-Info.plist"; sourceTree = "<group>"; };
 		988E0AF218D4ACB7004F3B4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		988E0AF418D4ACB7004F3B4D /* BatalabraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatalabraTests.m; sourceTree = "<group>"; };
+		988E0AFE18D4ADEE004F3B4D /* AccesoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccesoController.xib; sourceTree = "<group>"; };
+		988E0AFF18D4ADEE004F3B4D /* AccesoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccesoController.m; sourceTree = "<group>"; };
+		988E0B0018D4ADEE004F3B4D /* AccesoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccesoController.h; sourceTree = "<group>"; };
+		988E0B0318D4B5B2004F3B4D /* RecuperaPswController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecuperaPswController.xib; sourceTree = "<group>"; };
+		988E0B0418D4B5B2004F3B4D /* AyudaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AyudaController.xib; sourceTree = "<group>"; };
+		988E0B0518D4B5B2004F3B4D /* RegistroController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroController.m; sourceTree = "<group>"; };
+		988E0B0618D4B5B2004F3B4D /* RegistroController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistroController.h; sourceTree = "<group>"; };
+		988E0B0718D4B5B2004F3B4D /* RecuperaPswController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecuperaPswController.m; sourceTree = "<group>"; };
+		988E0B0818D4B5B2004F3B4D /* RecuperaPswController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecuperaPswController.h; sourceTree = "<group>"; };
+		988E0B0918D4B5B2004F3B4D /* AyudaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AyudaController.m; sourceTree = "<group>"; };
+		988E0B0A18D4B5B2004F3B4D /* RegistroController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistroController.xib; sourceTree = "<group>"; };
+		988E0B0B18D4B5B2004F3B4D /* AyudaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AyudaController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +134,20 @@
 			children = (
 				988E0AD818D4ACB7004F3B4D /* AppDelegate.h */,
 				988E0AD918D4ACB7004F3B4D /* AppDelegate.m */,
-				988E0ADB18D4ACB7004F3B4D /* Main.storyboard */,
+				988E0B0018D4ADEE004F3B4D /* AccesoController.h */,
+				988E0AFF18D4ADEE004F3B4D /* AccesoController.m */,
+				988E0B0B18D4B5B2004F3B4D /* AyudaController.h */,
+				988E0B0918D4B5B2004F3B4D /* AyudaController.m */,
+				988E0B0618D4B5B2004F3B4D /* RegistroController.h */,
+				988E0B0518D4B5B2004F3B4D /* RegistroController.m */,
+				988E0B0718D4B5B2004F3B4D /* RecuperaPswController.m */,
+				988E0B0818D4B5B2004F3B4D /* RecuperaPswController.h */,
+				988E0B0A18D4B5B2004F3B4D /* RegistroController.xib */,
 				988E0ADE18D4ACB7004F3B4D /* ViewController.h */,
 				988E0ADF18D4ACB7004F3B4D /* ViewController.m */,
+				988E0B0418D4B5B2004F3B4D /* AyudaController.xib */,
+				988E0AFE18D4ADEE004F3B4D /* AccesoController.xib */,
+				988E0B0318D4B5B2004F3B4D /* RecuperaPswController.xib */,
 				988E0AE118D4ACB7004F3B4D /* Images.xcassets */,
 				988E0AD018D4ACB7004F3B4D /* Supporting Files */,
 			);
@@ -129,6 +160,7 @@
 				988E0AD118D4ACB7004F3B4D /* Batalabra-Info.plist */,
 				988E0AD218D4ACB7004F3B4D /* InfoPlist.strings */,
 				988E0AD518D4ACB7004F3B4D /* main.m */,
+				988E0ADB18D4ACB7004F3B4D /* Main.storyboard */,
 				988E0AD718D4ACB7004F3B4D /* Batalabra-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -230,7 +262,11 @@
 			files = (
 				988E0AE218D4ACB7004F3B4D /* Images.xcassets in Resources */,
 				988E0AD418D4ACB7004F3B4D /* InfoPlist.strings in Resources */,
+				988E0B0D18D4B5B2004F3B4D /* AyudaController.xib in Resources */,
 				988E0ADD18D4ACB7004F3B4D /* Main.storyboard in Resources */,
+				988E0B0118D4ADEE004F3B4D /* AccesoController.xib in Resources */,
+				988E0B0C18D4B5B2004F3B4D /* RecuperaPswController.xib in Resources */,
+				988E0B1118D4B5B2004F3B4D /* RegistroController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				988E0B1018D4B5B2004F3B4D /* AyudaController.m in Sources */,
+				988E0B0E18D4B5B2004F3B4D /* RegistroController.m in Sources */,
 				988E0AE018D4ACB7004F3B4D /* ViewController.m in Sources */,
 				988E0ADA18D4ACB7004F3B4D /* AppDelegate.m in Sources */,
 				988E0AD618D4ACB7004F3B4D /* main.m in Sources */,
+				988E0B0218D4ADEE004F3B4D /* AccesoController.m in Sources */,
+				988E0B0F18D4B5B2004F3B4D /* RecuperaPswController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

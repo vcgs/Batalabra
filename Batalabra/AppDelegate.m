@@ -8,12 +8,22 @@
 
 #import "AppDelegate.h"
 
+#import "AccesoController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{    // ... Other code
+    
     // Override point for customization after application launch.
+    AccesoController *viewController = [[AccesoController alloc] init];
+    
+    self.window.rootViewController = viewController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
+    
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

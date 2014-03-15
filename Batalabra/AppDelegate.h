@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class AccesoController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) AccesoController *viewController;
 
 @end
