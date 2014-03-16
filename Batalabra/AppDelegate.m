@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 Victoria Cabeza Guisado. All rights reserved.
 //
 
+
 #import "AppDelegate.h"
 
+#import <RestKit/Search.h>
 #import "AccesoController.h"
 
 @implementation AppDelegate
@@ -15,17 +17,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {    // ... Other code
     
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    AccesoController *viewController = [[AccesoController alloc] init];
-    
-    self.window.rootViewController = viewController;
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.viewController = [[AccesoController alloc] initWithNibName:@"AccesoController" bundle:nil];
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
-    
-    
 }
-							
+
+    
+    
+
+
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "RegistroController.h"
-//#import "RecuperaPswController.h"
+#import "RecuperaPswController.h"
 //#import "HomeController.h"
 #import "AyudaController.h"
 

@@ -90,10 +90,10 @@
 
 - (IBAction) recuperapsw:(id)sender
 {
-   /* RecuperaPswController * view2Instance=[[RecuperaPswController alloc] init];
+    RecuperaPswController * view2Instance=[[RecuperaPswController alloc] init];
     view2Instance.modalTransitionStyle=UIModalTransitionStyleCoverVertical;
     [self presentViewController:view2Instance animated:YES completion:nil];
-    [view2Instance release];*/
+    //[view2Instance release];
 }
 
 - (IBAction) login:(id)sender

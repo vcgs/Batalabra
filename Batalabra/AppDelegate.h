@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import <RestKit/RestKit.h>
+
 
 @class AccesoController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 @property (strong, nonatomic) AccesoController *viewController;
+//@property (strong, nonatomic) RKManagedObjectStore *managedObjectStore;
 
 @end
